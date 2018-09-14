@@ -1,8 +1,100 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 * {
-  background-color: green;
-  color: grey;
+  color: black;
+  font-family: "Fira Sans";
+  padding: 0;
 }
 
+
+.company-name{
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+.headline {
+  font-size: 6vw;
+  margin-top: 4vw;
+}
+.centered-text{
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.top-div {
+  background-image: url("../images/blueberrypan.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vw;
+}
+
+.blue-card {
+  text-align: center;
+}
+
+.card-container{
+  justify-content: space-around;
+}
+
+.phone-container{
+  justify-content: space-around;
+  text-align: center;
+}
+
+.reviews-container{
+  justify-content: space-around;
+}
+
+.reviews-sub-container{
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+.top-div {
+  margin: 0 auto;
+}
+
+.navbar {
+  justify-content: flex-end;
+}
+.navbar a{
+  margin-left: 2vw;
+}
+
+
+.second-div{
+  justify-content: center;
+  background-color: #e5e5e5;
+  height: 80vh;
+  padding: 2vh;
+  margin: 0 auto;
+}
+
+.third-div{
+  height: 100vh;
+  padding: 5vh;
+}
+.white-box{
+  padding: 8vh;
+  height: 60vh;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  width: 70vw;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: #adabab;
+}
+
+.circle-img{
+  border-radius: 100%;
+  width: 10vw;
+  height: 10vw;
+}
+
+.blue-card{
+  background: #ddd3e8;
+}
