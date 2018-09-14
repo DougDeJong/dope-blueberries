@@ -79,6 +79,16 @@
   height: 100vh;
   padding: 5vh;
 }
+
+.third-div{
+  padding: 5vh;
+}
+
+.push-top{
+  margin-top: 5vw;
+}
+
+
 .white-box{
   padding: 8vh;
   height: 60vh;
